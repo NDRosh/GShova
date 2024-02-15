@@ -17,18 +17,18 @@ body {
     padding: 2em 2em 4em;
 }
 
-.container {
+container {
   display: grid;
   gap: 20px;
 }
 
 
-.wrapper {
+wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
 
-.img{
+img{
   with: 400px;
 }
