@@ -17,6 +17,10 @@ body {
     padding: 2em 2em 4em;
 }
 
+.wrapper {
+  display: grid;
+}
+
 .container {
   display: grid;
   gap: 20px;
