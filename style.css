@@ -17,9 +17,6 @@ body {
     padding: 2em 2em 4em;
 }
 
-.img{
-  with: 200px;
-}
 
 .wrapper {
   display: grid;
@@ -29,4 +26,8 @@ body {
 .container {
   display: grid;
   gap: 20px;
+}
+
+.img{
+  with: 200px;
 }
