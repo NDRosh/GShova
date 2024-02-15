@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>НАЧАЛО РАБОТЫ С BRACKETS</title>
     <meta name="description" content="Интерактивное руководство по началу работы в Brackets.">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
