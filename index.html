@@ -11,16 +11,24 @@
 </head>
 <body>
 
- <div id="app">
-    <p>{{name}} - {{age}}</p>
- </div>
- <script src="https://unpkg.com/vue@2.7.14/dist/vue.js"></script>
- <script>
+<div id="app">
+    <input type="text" v-on:input="setMessage" />
+    <p>{{message}}</p>
+</div>
+<script src="https://unpkg.com/vue@2.7.14/dist/vue.js"></script>
+<script>
     var app = new Vue({
         el: '#app',
-        data: {name: 'Tom', age:25}
-    });
- </script>
+        data: {
+            message: 'Hello Vue!'
+        },
+        methods: {
+            setMessage: function(event){
+                this.message = event.target.value;
+            }
+        }
+    })
+</script>
 
 	
 	<h1>Прайс на товар по состоянию на сегодня</h1>
