@@ -11,11 +11,19 @@
 </head>
 <body>
 
-	<h1>Прайс </h1>
+ <div id="app">
+    <p>{{name}} - {{age}}</p>
+ </div>
+ <script src="https://unpkg.com/vue@2.7.14/dist/vue.js"></script>
+ <script>
+    var app = new Vue({
+        el: '#app',
+        data: {name: 'Tom', age:25}
+    });
+ </script>
 
-	<h1>Прайс </h1>
-
-
+	
+	<h1>Прайс на товар по состоянию на сегодня</h1>
 
 <table>
   <tr>
