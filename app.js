@@ -65,10 +65,7 @@ Telegram.WebApp.onEvent("mainButtonClicked", function(){
 });
 
 
-Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-double width = screenSize.getWidth();
-let height = screenSize.getHeight();
-document.getElementById("wid").textContent = width;
+
 
 let usercard = document.getElementById("usercard");
 
